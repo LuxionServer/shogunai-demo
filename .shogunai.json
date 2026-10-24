@@ -1,7 +1,0 @@
-{
-  "copy": ["/.env"],
-  "providers": {
-    "docker-compose": { "portVariables": ["DB_PORT", "API_PORT"] },
-    "maven": { "mavenMaxHeap": "1g" }
-  }
-}

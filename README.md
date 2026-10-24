@@ -46,10 +46,6 @@ Each session brings up its own stack; `docker compose ls` lists one project per 
 
 Without Claude Code, create the worktrees with `shogun new <task>` and load their variables with `eval "$(shogun env)"` before `docker compose up -d --build`.
 
-## Without ShogunAi
-
-The `without-shogunai` branch has no `.shogunai.json` and no hooks. Run the same three sessions from it to see the agents step on each other.
-
 ## The API
 
 | Endpoint | What it does |

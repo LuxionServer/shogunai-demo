@@ -1,7 +1,0 @@
-{
-  "hooks": {
-    "WorktreeCreate": [{ "hooks": [{ "type": "command", "command": "shogun hook worktree-create" }] }],
-    "WorktreeRemove": [{ "hooks": [{ "type": "command", "command": "shogun hook worktree-remove" }] }],
-    "SessionStart": [{ "hooks": [{ "type": "command", "command": "shogun hook session-start" }] }]
-  }
-}
